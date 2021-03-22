@@ -9,7 +9,7 @@ class Notepad:
     window.wm_iconbitmap("download.ico")
     window.title("Untiled - Notes_App")
     window.geometry("700x400")
-    TextArea = Text(window, font=("Arial", 15))
+    TextArea = Text(window, font=("Courier Prime", 15))
     MenuBar = Menu(window)
 
     FileMenu = Menu(MenuBar, tearoff=0)
